@@ -1,0 +1,110 @@
+
+header{
+    width: 58%;
+    margin: 0 auto;
+	padding: 0.5em 2em;
+    letter-spacing: 1.5px;
+	color: #549688;
+	text-shadow: 5px 5px 6px lightgray;
+    font-family: Script;
+}
+
+header a{
+    text-decoration: none;
+    color: #549688;
+}
+
+header a:hover{
+    color:#63ad9d;
+}
+
+nav>ul{
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 3em;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #5dabad;
+    overflow: hidden;
+}
+
+nav li{
+    float: left;
+    border-right: solid white; 
+}
+
+nav a{
+    display: block;
+    padding: 11px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white
+}
+
+nav a:hover{
+    background-color: rgb(248, 190, 114);
+    border-bottom: dashed #4d8080;
+}
+    
+    
+main>section{
+	width: 60%;
+	margin: 0 auto;
+	letter-spacing: 2px;
+	text-align: justify;
+    padding: 0.5em 1.5em ;
+    background-color:  antiquewhite;
+}
+
+section>h3{
+	color: #424c50;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+section>p{
+	color: #424c50;
+    font-family: 'Noto Serif TC', serif;
+	text-indent: 36px;
+	line-height: 200%;
+    font-weight: 550;
+}
+
+main a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #4a7b70;
+    letter-spacing: 2px;
+}
+
+main a:hover{
+    color:#51baa3;
+}
+
+main>figure{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em 1.5em;
+    padding-bottom: 15em;
+    background-color:  antiquewhite;
+}
+
+main img{
+    margin: 0 0 20px;
+}
+    
+main ul{
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em 0.5em 20em 2.5em;
+    line-height: 2;
+    background-color:  antiquewhite;
+}
+
+.pengin{
+    float: right;
+}
+
+
+
+
+
