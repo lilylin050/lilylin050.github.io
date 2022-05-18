@@ -1,12 +1,12 @@
 
 header{
-    width: 58%;
+    width: 80%;
     margin: 0 auto;
-	padding: 0.5em 2em;
+	padding: 0.5em 0;
     letter-spacing: 1.5px;
 	color: #549688;
 	text-shadow: 5px 5px 6px lightgray;
-    font-family: Script;
+    font-family: 'Noto Sans TC';
 }
 
 header a{
@@ -21,8 +21,7 @@ header a:hover{
 nav>ul{
     list-style-type: none;
     padding-left: 0;
-    padding-right: 3em;
-    width: 60%;
+    padding-right: 0;
     margin: 0 auto;
     background-color: #5dabad;
     overflow: hidden;
@@ -43,31 +42,28 @@ nav a{
 
 nav a:hover{
     background-color: rgb(248, 190, 114);
-    border-bottom: dashed #4d8080;
+
 }
     
     
-main>section{
-	width: 60%;
+section{
 	margin: 0 auto;
 	letter-spacing: 2px;
 	text-align: justify;
-    padding: 0.5em 1.5em ;
+    padding: 0.5em 1.5em;
+    color: #424c50;
+    font-family: 'Noto Sans TC';
     background-color:  antiquewhite;
-}
-
-section>h3{
-	color: #424c50;
-    font-family: 'Noto Sans TC', sans-serif;
 }
 
 section>p{
 	color: #424c50;
-    font-family: 'Noto Serif TC', serif;
+    font-family: 'Noto Serif TC';
 	text-indent: 36px;
 	line-height: 200%;
     font-weight: 550;
 }
+
 
 main a{
     font-size: 20px;
@@ -88,10 +84,10 @@ main>figure{
     background-color:  antiquewhite;
 }
 
-main img{
-    margin: 0 0 20px;
+img{
+    padding-bottom: 0.5em;
 }
-    
+
 main ul{
     width: 60%;
     margin: 0 auto;
