@@ -63,7 +63,7 @@ header a:hover{
     padding: 19px;
 }
 
-.contact a{
+.contact li a{
     font-size: 20px;
     text-decoration: none;
     color: #4a7b70;
@@ -79,11 +79,15 @@ section{
     background-color:  antiquewhite;
 }
 
-section>h3{
+section h6{
+    color:dimgrey;
+}
+
+section h3{
     margin: 0.5em 0;
 }
 
-section>p{
+section p{
     margin: 0.5em;
 	color: #424c50;
 	text-indent: 36px;
@@ -93,6 +97,10 @@ section>p{
 
 .d-flex img{
     padding: 1em 0.5em 0 0.5em;
+}
+
+.card-body img{
+    padding: 0;
 }
 
 .pengin{
