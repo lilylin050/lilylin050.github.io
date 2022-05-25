@@ -6,6 +6,7 @@
 header{
     padding: 0.5em 0;
     letter-spacing: 1.5px;
+    background-color: white;
 }
 
 header img{
@@ -26,12 +27,8 @@ header a:hover{
     color:#63ad9d;
 }
 
-.navbar-toggler{
-    color: white; 
-}
-
-.burger{
-    padding: 0;
+body{
+    background-color:antiquewhite
 }
 
 .container-fluid{
@@ -63,6 +60,13 @@ header a:hover{
     padding: 19px;
 }
 
+.contact{
+    margin: 1em;
+}
+
+.contact li{
+   list-style-type: none;
+}
 .contact li a{
     font-size: 20px;
     text-decoration: none;
@@ -74,7 +78,7 @@ header a:hover{
 section{
 	letter-spacing: 2px;
 	text-align: justify;
-    padding: 1.5em 1.5em;
+    padding: 1.5em;
     color: #424c50;
     background-color:  antiquewhite;
 }
@@ -88,15 +92,19 @@ section h3{
 }
 
 section p{
-    margin: 0.5em;
+    margin: 0.5 0 em;
 	color: #424c50;
 	text-indent: 36px;
 	line-height: 200%;
     font-weight: 550;
 }
 
-.d-flex img{
+figure img{
     padding: 1em 0.5em 0 0.5em;
+}
+
+.video{
+    padding: 0.5em;
 }
 
 .card-body img{

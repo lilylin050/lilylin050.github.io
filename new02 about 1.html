@@ -30,10 +30,11 @@
     
 	<body>
         <div class="container-fluid">
-        <nav class="navbar sticky-top navbar-expand-lg ">
             
-            <a class="navbar-brand" href="index.html" >
-                Lily's</a>
+        <nav class="d-flex navbar sticky-top navbar-expand-md">
+            
+            <a class="navbar-brand" href="index.html">Home</a>
+            
             <div class="top-right">
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"> <img class="burger" src="images/burger.png" width="35px">
                 </button>
@@ -50,9 +51,11 @@
             </div>
         </nav>
             
-            <div class="table-warning">
+            <div class="container-md">
                 <section>
-                    <h6>(點選標題可收起段落喔)</h6>
+                    <a class="d-none d-md-block" href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="點選標題可收起段落喔~">滑到我看提示!</a>
+                    
+                    <h6 class="d-md-none d-block">(點選標題可收起段落喔)</h6>
                     <h3 type="button" class="fw-bold alert alert-success" role="alert" data-bs-toggle="collapse" data-bs-target="#demo01">啵啵玉米</h3>
                     <div id="demo01" class="collapse show">
                     <p>大約是在我上幼稚園之前，我的父母除了白天有各自的工作，傍晚還會到家附近的中壢夜市擺攤，攤位名字叫「啵啵玉米」，賣的是剝好的碗裝玉米粒以及印度拉茶，那時候的我還不夠高，雖然根本就看不到前方的路，但看他們推攤車感覺很好玩，就會想跟著一起推。他們一開始因為會覺得危險而阻止我，但後來他們知道，等到推了幾分鐘我開始覺得手痠了、累了，我就會自己放棄，漸漸就不再攔我了。</p>
@@ -109,6 +112,7 @@
              
             <!-- Option 1: Bootstrap Bundle with Popper -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
         </div>
     </body>
 </html>
