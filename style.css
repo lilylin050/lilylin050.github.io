@@ -30,6 +30,7 @@ body{
 
 .container-fluid{
     padding: 0;
+    margin:0 auto;
     background-color: antiquewhite;
 }
 
@@ -126,6 +127,7 @@ figure img{
 .pengin{
     float: right;
 }
+
 
 
 
