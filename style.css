@@ -52,17 +52,14 @@ nav .home{
     padding: 22px;
 }
 
-.navbar a:hover{
+.navbar a:focus, .navbar a:hover{
     color: #549688;
     background-color: antiquewhite;
 }
 
-.works a:visited{
-    color: white;
-}
-
-.dropdown a: visited{
-   color: white; 
+.navbar a:hover{
+    color: #549688;
+    background-color: antiquewhite;
 }
 
 .dropdown-menu a{
