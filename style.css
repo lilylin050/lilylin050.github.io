@@ -8,6 +8,10 @@ header{
     letter-spacing: 1.5px;
     font-size: 20px;
     background-color: white;
+    /*
+    background-image: url(images/joseph-barrientos-oQl0eVYd_n8-unsplash.jpg);
+    background-size: cover;
+    */
 }
 
 header img{
