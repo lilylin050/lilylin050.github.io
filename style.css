@@ -121,6 +121,7 @@ section p{
 	text-indent: 36px;
 	line-height: 200%;
     font-weight: 550;
+    font-family: 'Noto Sans TC';
 }
 
 h6, h6>a{
@@ -153,7 +154,7 @@ h6:hover{
 .card h5{
     font-family: 'Zen Kurenaido', sans-serif;
     letter-spacing: 2px;
-    background-color: rgb(195, 165, 159);
+    background-color: rgba(160, 98, 86, 0.63);
     padding: 3px 5px;
     color: rgb(255, 255, 255);
 }
@@ -163,7 +164,8 @@ h6:hover{
     letter-spacing: 2.7px;
     padding: 3px 5px 20px;
     line-height: 1.8em;
-    color: #0e1715;
+    font-size: 17.5px;
+    color: rgb(113, 49, 36);
 }
 
 .yt{
