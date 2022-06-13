@@ -47,10 +47,10 @@ nav .home{
     padding: 8px 20px;
     font-size: 36px;
     font-family: 'Nanum Brush Script', cursive;
+    
 }
 
 .nav-item > a{
-    
     color: white;  
     padding: 15px 19px 18px;
     font-size: 25px;
@@ -99,16 +99,12 @@ section{
 	letter-spacing: 2px;
 	text-align: justify;
     padding: 1.5em;
-    color: #424c50;
     background-color:  antiquewhite;
-}
-
-section h6{
-    color:dimgrey;
 }
 
 section h3{
     margin: 0.5em 0;
+    font-family: 'Kiwi Maru', serif;
 }
 
 section i{
@@ -121,30 +117,53 @@ section i:hover{
 
 section p{
     margin: 0.5 0;
-	color: black;
+	color: #424c50;
 	text-indent: 36px;
 	line-height: 200%;
     font-weight: 550;
 }
 
-.tip {
-    padding-left: 0.9em;
+h6, h6>a{
     text-decoration: none;
+    letter-spacing: 2px;
+    font-family: 'Zen Kurenaido', sans-serif;
+    padding: 0;
+    margin: 0;
     color: dimgrey;
 }
 
-figure img{
-    padding: 1em 0.5em 0 0.5em;
-    
+h6:hover{
+    color: black;
 }
 
-.card h5, .card p{
-    
-    letter-spacing: 1.5px;
+
+/*figure img{
+    padding: 1em 0.5em 0 0.5em;
+}*/
+
+.bg{
+    background-color: rgba(221, 191, 184, 0.9);
+}
+
+.card-img-top{
+    padding-top: 30px; 
+    padding-bottom: 10px;
+}
+
+.card h5{
+    font-family: 'Zen Kurenaido', sans-serif;
+    letter-spacing: 2px;
+    background-color: rgb(195, 165, 159);
+    padding: 3px 5px;
+    color: rgb(255, 255, 255);
 }
 
 .card p{
     font-family: 'Boogaloo', cursive;
+    letter-spacing: 2.7px;
+    padding: 3px 5px 20px;
+    line-height: 1.8em;
+    color: #0e1715;
 }
 
 .yt{
@@ -158,12 +177,13 @@ figure img:hover{
 }
 */
 
-footer{
+footer div{
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 25px;
+    padding: 2px;
     color: white;
     background-color: #6da599;
-    padding: 10px;
     text-align: center;
-    font-size: 14px;
 }
 
 .top{
