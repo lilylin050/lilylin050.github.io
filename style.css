@@ -158,6 +158,14 @@ figure img{
     
 }
 
+.card h5, .card p{
+    letter-spacing: 1.5px;
+}
+
+
+.yt{
+     justify-content: center;
+}
 
 /*
 
